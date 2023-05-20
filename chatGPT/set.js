@@ -66,6 +66,7 @@ function Send() {
                 new CreateMessage('ChatGpt', s)
                 txtMsg.disabled = false
                 txtMsg.placeholder = 'Введите запрос'
+                chat.scrollTo(0, chat.scrollHeight)
             }            
         }
     };
@@ -98,6 +99,7 @@ function Send() {
     txtMsg.value = "";
     txtMsg.disabled = true
     txtMsg.placeholder = 'Ждите ответа...'
+    chat.scrollTo(0, chat.scrollHeight)
     
 }
 
