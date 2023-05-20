@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "Comfortaa", cursive;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(221, 221, 221, 0) #40bf77;
+}
+
+/* Chrome, Edge and Safari */
+::-webkit-scrollbar {
+  width: 7px;
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgba(221, 221, 221, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 80px;
+  background-color: #40bf77;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #40bf77;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.7019607843);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 30px;
+}
+
+.chat {
+  margin-top: 16.5px;
+  overflow: auto;
+  max-width: calc(100% - 36px);
+  width: 100%;
+  height: 609px;
+  background: rgba(64, 191, 119, 0.2);
+  border-radius: 20px;
+}
+.chat .message {
+  word-wrap: break-word;
+  margin: 10px 20px 0 20px;
+}
+.chat .message .name {
+  color: rgba(0, 0, 0, 0.807);
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+}
+.chat .message .text {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.807);
+  font-family: "Comfortaa", cursive;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.807);
+}
+
+.sendingArea {
+  margin: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(100% - 36px);
+  width: 100%;
+  height: 40px;
+}
+.sendingArea input {
+  color: rgba(0, 0, 0, 0.807);
+  font-family: "Comfortaa", cursive;
+  font-size: 18px;
+  max-width: 505px;
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: rgba(103, 103, 103, 0.1019607843);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.sendingArea button {
+  width: 51px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: rgba(134, 134, 134, 0.1019607843);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  transition: 200ms;
+}
+.sendingArea button:active {
+  transform: scale(0.95);
+  transition: 200ms;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}/*# sourceMappingURL=style.css.map */
