@@ -140,22 +140,13 @@ html {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(221, 221, 221, 0) #40bf77;
+  scrollbar-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
 }
 
 /* Chrome, Edge and Safari */
 ::-webkit-scrollbar {
-  width: 7px;
-  width: 7px;
-}
-
-::-webkit-scrollbar-track {
-  background-color: rgba(221, 221, 221, 0);
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 80px;
-  background-color: #40bf77;
+  width: 0px;
+  width: 0px;
 }
 
 body {
