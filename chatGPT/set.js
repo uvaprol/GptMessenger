@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "";
+const OPENAI_API_KEY = "";//your ApiKey
 
 
 class CreateMessage {
